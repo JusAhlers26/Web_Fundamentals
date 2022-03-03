@@ -1,0 +1,357 @@
+.container, .container2, .education .conreq {
+    font-family: 'Roboto', monospace;
+}
+
+.top-nav {
+    background-color: #333333;
+    color: whitesmoke;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 200px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    position: absolute;
+    right: 130px;
+    top: 40px;
+}
+.container2 {
+    width: 500px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    font-family: 'roboto', monospace;
+    position: absolute;
+    top: 135px;
+    left: 200px;
+}
+.topcolor {
+    display: flex;
+    height: 120px;
+    background-color:darkcyan;
+    position: relative;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+#circle {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+    position:absolute;
+    top: 55px;
+}
+.name {
+    margin-left: 80px;
+    position: absolute;
+    top: 130px;
+}
+#map-marker {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-left: 80px;
+    position:absolute;
+    top: 220px;
+}
+#city {
+    margin-left: 100px;
+    position:absolute;
+    top: 190px;
+}
+#pseudotitle {
+    margin-left: 80px;
+    position:absolute;
+    top: 250px;
+}
+p {
+    color:black;
+}
+#editlink {
+    display: flex;
+    height: 20px;
+    width: auto;
+    margin-left: 80px;
+    position:absolute;
+    top: 360px;
+}
+.education {
+    width: 500px;
+    height: 700px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    font-family: 'roboto', monospace;
+    position: absolute;
+    top: 580px;
+    left: 200px;
+}
+.edunav {
+    display: flex;
+    height: 75px;
+    background-color: #333333;
+    position: relative;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+.edutitle {
+    display: flex;
+    color: whitesmoke;
+    margin-left: 80px;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+}
+.education h3 {
+    display: flex;
+    margin-left: 80px;
+    position: absolute;
+    top: 60px;
+}
+.education a {
+    display: flex;
+    margin-left: 80px;
+    position: absolute;
+    color: dimgrey;
+    top: 130px;
+}
+.education p {
+    display: flex;
+    margin-left: 80px;
+    position: absolute;
+    top: 150px;
+}
+.conreq {
+    width: 500px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    font-family: 'roboto', monospace;
+    position: absolute;
+    top: 135px;
+    left: 745px;
+}
+.reqnav {
+    display: flex;
+    height: 75px;
+    background-color: #333333;
+    position: relative;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+.reqtitle {
+    display: flex;
+    color: whitesmoke;
+    margin-left: 100px;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+}
+#phill {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 40px;
+    position:absolute;
+    top: 250px;
+}
+#todd{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 40px;
+    position:absolute;
+    top: 125px;
+}
+#check {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 300px;
+    position:absolute;
+    top: 125px;
+}
+#check2 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 0px;
+    position:absolute;
+    top: 125px;
+}
+#x {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 100px;
+    position:absolute;
+    top: 0px;
+}
+#x2{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 100px;
+    position:absolute;
+    top: 0px;
+}
+.conreq a {
+    display: flex;
+    margin-left: 150px;
+    position: absolute;
+    top: 150px;
+}
+.conreq p {
+    display: flex;
+    margin-left: 150px;
+    position:absolute;
+    top: 255px;
+}
+.conreq button {
+    color: black;
+    border-radius: 50%;
+    border: 1px whitesmoke;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-left: 35px;
+    position:absolute;
+    top: 15px;
+    padding: 10px 15px;
+}
+.youcon {
+    width: 500px;
+    height: 700px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    font-family: 'roboto', monospace;
+    position: absolute;
+    top: 320px;
+    right: -125px;
+}
+.connav {
+    display: flex;
+    height: 75px;
+    background-color: #333333;
+    position: relative;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+.contitle {
+    display: flex;
+    color: whitesmoke;
+    margin-left: 140px;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+}
+#adrien {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 40px;
+    position:absolute;
+    top: 125px;
+}
+#anne{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 40px;
+    position:absolute;
+    top: 250px;
+}
+#alayne {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 40px;
+    position:absolute;
+    top: 375px;
+}
+#arry {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 0px;
+    position:absolute;
+    top: 125px;
+}
+.youcon text {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 150px;
+    position:absolute;
+    top: 375px;
+}
+.youcon h4 {
+    display: flex;
+    height: 75px;
+    width: 75px;
+    margin-left: 135px;
+    position:absolute;
+    top: 490px;
+}
+.youcon a {
+    display: flex;
+    margin-left: 150px;
+    position: absolute;
+    top: 150px;
+}
+.youcon p {
+    display: flex;
+    margin-left: 150px;
+    position:absolute;
+    top: 255px;
+}
+.youcon button {
+    color: black;
+    border-radius: 50%;
+    border: 1px whitesmoke;
+    width: 75px;
+    height: 40px;
+    display: flex;
+    margin-left: 35px;
+    position:absolute;
+    top: 15px;
+    padding: 10px 20px;
+}
+.viewmore {
+    display: flex;
+    position:absolute;
+    margin-left: 60px;
+    bottom: 225px;
+    padding-left: 0px 10px;
+}

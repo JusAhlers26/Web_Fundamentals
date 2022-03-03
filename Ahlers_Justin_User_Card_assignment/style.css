@@ -1,0 +1,61 @@
+.container2 {
+    width: 950px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    font-family: 'Luxurious Roman', cursive;
+}
+.top-nav {
+    display: flex;
+    height: 120px;
+    background-color:darkcyan;
+    position: relative;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+#circle {
+    display: flex;
+    background-color: whitesmoke;
+    height: 150px;
+    width: 150px;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+    margin-left: 80px;
+    position:absolute;
+    top: 55px;
+}
+.name {
+    margin-left: 80px;
+    position: absolute;
+    top: 180px;
+}
+#map-marker {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-left: 80px;
+    position:absolute;
+    top: 260px;
+}
+#city {
+    margin-left: 100px;
+    position:absolute;
+    top: 235px;
+}
+#pseudotitle {
+    margin-left: 80px;
+    position:absolute;
+    top: 300px;
+}
+#editlink {
+    display: flex;
+    height: 20px;
+    width: auto;
+    margin-left: 80px;
+    position:absolute;
+    top: 370px;
+}
+
+

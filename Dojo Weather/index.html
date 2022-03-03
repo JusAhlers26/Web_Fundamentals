@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="topnav">
+            <h1 class="dojotitle">DojoWeather</h1>
+            <ul class="links">
+                <li onclick="messbox()"><a href="#">Burbank</a></li>
+                <li onclick="messbox()"><a href="#">Chicago</a></li>
+                <li onclick="messbox()"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottombar">
+        <div class="bottomnav">
+            <h1 class="navtitle">San Jose</h1>
+            <!--dojo html form. I had a hard time with the temp challenge-->
+            <form>
+                <label>Show temperature in </label>
+                <select name="temperature-scale" onchange="convert(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </div>
+        <div class="container">
+            <div class="box1">
+                <h1 id="today">Today</h1>
+                <img src="icons/some_rain.png" alt="rain">
+                    <p>some rain</p>
+                <p class="temperatures"> <!--dojo temp stuff. I had a really hard time-->
+                    <span class="high" id="temp1">24</span>
+                    <span class="low" id="temp2">18</span>
+                </p>
+            </div>
+            <div class="box2">
+                <h1 id="tomo">Tomorrow</h1>
+                <img src="icons/some_sun.png" alt="sun">
+                    <p>some sun</p>
+                <p class="temperatures"><!--dojo temp stuff. I had a really hard time-->
+                    <span class="high" id="temp3">27</span>
+                    <span class="low" id="temp4">19</span>
+                </p>
+            </div>
+            <div class="box3">
+                <h1 id="frid">Friday</h1>
+                <img src="icons/some_clouds.png" alt="clouds">
+                    <p>some cloud</p>
+                <p class="temperatures"><!--dojo temp stuff. I had a really hard time-->
+                    <span class="high" id="temp5">21</span>
+                    <span class="low" id="temp6">16</span>
+                </p>
+            </div>
+            <div class="box4">
+                <h1 id="satu">Saturday</h1>
+                <img src="icons/some_sun.png" alt="sun">
+                    <p>some sun</p>
+                <p class="temperatures"><!--dojo temp stuff. I had a really hard time-->
+                    <span class="high" id="temp7">26</span>
+                    <span class="low" id="temp8">21</span>
+                </p>
+            </div>
+        </div>
+    </div>
+        <div class="cookiepop">
+            <div id="cookiepic">
+            <img src="icons/cookie.png" alt="cookie">
+            </div>
+            <div class="cookiemessage">
+                <p class="cookietitle">Stop! Cookie time.</p>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our site traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button class="btn" onclick="hide()">Accept</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
